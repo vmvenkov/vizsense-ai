@@ -1,0 +1,41 @@
+Date,Channel,Region,Category,Product,Units,UnitPrice,Revenue
+2025-01-03,Organic Search,Sofia,Electronics,Wireless Earbuds,12,79.90,958.80
+2025-01-04,Organic Search,Sofia,Electronics,Smart Watch,7,149.00,1043.00
+2025-01-05,Google Ads,Plovdiv,Home,Air Fryer,6,129.00,774.00
+2025-01-07,Google Ads,Sofia,Beauty,Skincare Set,10,39.90,399.00
+2025-01-09,Facebook Ads,Varna,Fashion,Sneakers,4,119.00,476.00
+2025-01-10,Email,Sofia,Home,Coffee Machine,2,249.00,498.00
+2025-01-12,TikTok Ads,Burgas,Beauty,Perfume,3,89.00,267.00
+2025-01-13,Organic Search,Ruse,Electronics,Bluetooth Speaker,9,59.00,531.00
+2025-01-14,Facebook Ads,Sofia,Fashion,Jacket,2,159.00,318.00
+2025-01-15,Google Ads,Plovdiv,Electronics,Smart Watch,5,149.00,745.00
+2025-01-17,Email,Varna,Beauty,Skincare Set,8,39.90,319.20
+2025-01-18,Organic Search,Sofia,Fashion,Sneakers,5,119.00,595.00
+2025-01-20,TikTok Ads,Sofia,Electronics,Wireless Earbuds,9,79.90,719.10
+2025-01-21,Google Ads,Burgas,Home,Robot Vacuum,1,499.00,499.00
+2025-01-23,Facebook Ads,Plovdiv,Beauty,Perfume,5,89.00,445.00
+2025-01-24,Email,Ruse,Electronics,Bluetooth Speaker,6,59.00,354.00
+2025-01-25,Organic Search,Sofia,Home,Air Fryer,3,129.00,387.00
+2025-01-27,TikTok Ads,Varna,Fashion,Jacket,1,159.00,159.00
+2025-01-28,Google Ads,Sofia,Electronics,Laptop Stand,7,29.90,209.30
+2025-01-30,Email,Sofia,Electronics,Laptop Stand,8,29.90,239.20
+2025-02-02,Organic Search,Plovdiv,Home,Coffee Machine,1,249.00,249.00
+2025-02-03,Google Ads,Sofia,Beauty,Skincare Set,12,39.90,478.80
+2025-02-05,Facebook Ads,Varna,Electronics,Wireless Earbuds,6,79.90,479.40
+2025-02-06,Organic Search,Sofia,Fashion,Sneakers,9,119.00,1071.00
+2025-02-08,TikTok Ads,Burgas,Electronics,Smart Watch,2,149.00,298.00
+2025-02-10,Email,Plovdiv,Home,Air Fryer,4,129.00,516.00
+2025-02-11,Facebook Ads,Sofia,Home,Robot Vacuum,1,499.00,499.00
+2025-02-13,Organic Search,Varna,Beauty,Perfume,3,89.00,267.00
+2025-02-14,Google Ads,Ruse,Electronics,Bluetooth Speaker,11,59.00,649.00
+2025-02-15,Email,Sofia,Fashion,Jacket,2,159.00,318.00
+2025-02-16,TikTok Ads,Sofia,Electronics,Wireless Earbuds,13,79.90,1038.70
+2025-02-18,Facebook Ads,Burgas,Home,Coffee Machine,1,249.00,249.00
+2025-02-19,Organic Search,Plovdiv,Electronics,Laptop Stand,10,29.90,299.00
+2025-02-21,Google Ads,Sofia,Beauty,Perfume,6,89.00,534.00
+2025-02-23,Email,Varna,Beauty,Skincare Set,7,39.90,279.30
+2025-02-24,Organic Search,Sofia,Home,Air Fryer,4,129.00,516.00
+2025-02-25,Facebook Ads,Ruse,Electronics,Smart Watch,4,149.00,596.00
+2025-02-26,TikTok Ads,Sofia,Fashion,Sneakers,3,119.00,357.00
+2025-02-27,Google Ads,Plovdiv,Home,Robot Vacuum,1,499.00,499.00
+2025-02-28,Email,Sofia,Electronics,Bluetooth Speaker,5,59.00,295.00
