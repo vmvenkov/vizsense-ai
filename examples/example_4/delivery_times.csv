@@ -1,0 +1,17 @@
+OrderID,City,DeliveryDays
+A001,Sofia,1
+A002,Sofia,2
+A003,Sofia,2
+A004,Plovdiv,3
+A005,Varna,4
+A006,Varna,5
+A007,Burgas,3
+A008,Burgas,2
+A009,Ruse,6
+A010,Sofia,1
+A011,Plovdiv,4
+A012,Varna,3
+A013,Sofia,2
+A014,Plovdiv,2
+A015,Ruse,5
+A016,Burgas,4
