@@ -1,0 +1,18 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bad example: pie chart with too many product categories",
+  "data": {"name": "table"},
+  "transform": [
+    {"aggregate": [{"op": "sum", "field": "Revenue", "as": "TotalRevenue"}], "groupby": ["Product"]}
+  ],
+  "mark": "arc",
+  "encoding": {
+    "theta": {"field": "TotalRevenue", "type": "quantitative"},
+    "color": {"field": "Product", "type": "nominal"},
+    "tooltip": [
+      {"field": "Product", "type": "nominal"},
+      {"field": "TotalRevenue", "type": "quantitative"}
+    ]
+  },
+  "view": {"stroke": null}
+}
