@@ -1,0 +1,18 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Better example: sorted bar chart by revenue",
+  "data": {"name": "table"},
+  "transform": [
+    {"aggregate": [{"op": "sum", "field": "Revenue", "as": "TotalRevenue"}], "groupby": ["Product"]},
+    {"window": [{"op": "rank", "as": "rank"}], "sort": [{"field": "TotalRevenue", "order": "descending"}]}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {"field": "Product", "type": "nominal", "sort": "-x"},
+    "x": {"field": "TotalRevenue", "type": "quantitative", "title": "Total revenue", "scale": {"zero": true}},
+    "tooltip": [
+      {"field": "Product", "type": "nominal"},
+      {"field": "TotalRevenue", "type": "quantitative"}
+    ]
+  }
+}
