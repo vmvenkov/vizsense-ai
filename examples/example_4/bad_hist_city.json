@@ -1,0 +1,10 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"(Bad) Binning a categorical field",
+  "data":{"name":"table"},
+  "mark":"bar",
+  "encoding":{
+    "x":{"field":"City","type":"nominal","bin":true},
+    "y":{"aggregate":"count","type":"quantitative"}
+  }
+}
