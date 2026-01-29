@@ -1,0 +1,11 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"(Bad) Heatmap with nominal color",
+  "data":{"name":"table"},
+  "mark":"rect",
+  "encoding":{
+    "x":{"field":"Hour","type":"ordinal"},
+    "y":{"field":"DayOfWeek","type":"nominal"},
+    "color":{"field":"DayOfWeek","type":"nominal"}
+  }
+}
