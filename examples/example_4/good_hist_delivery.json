@@ -1,0 +1,11 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"Delivery time distribution",
+  "data":{"name":"table"},
+  "mark":"bar",
+  "encoding":{
+    "x":{"field":"DeliveryDays","type":"quantitative","bin":true},
+    "y":{"aggregate":"count","type":"quantitative"},
+    "tooltip":[{"aggregate":"count","type":"quantitative"}]
+  }
+}
