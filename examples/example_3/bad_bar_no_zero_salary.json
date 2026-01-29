@@ -1,0 +1,12 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"(Bad) Salary by role (non-zero baseline)",
+  "data":{"name":"table"},
+  "transform":[{"aggregate":[{"op":"mean","field":"Salary","as":"AvgSalary"}],"groupby":["Role"]}],
+  "mark":"bar",
+  "encoding":{
+    "x":{"field":"Role","type":"nominal"},
+    "y":{"field":"AvgSalary","type":"quantitative","scale":{"zero":false}},
+    "tooltip":[{"field":"Role","type":"nominal"},{"field":"AvgSalary","type":"quantitative"}]
+  }
+}
