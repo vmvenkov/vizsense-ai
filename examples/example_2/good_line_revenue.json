@@ -1,0 +1,13 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"Revenue over time by channel",
+  "data":{"name":"table"},
+  "transform":[{"aggregate":[{"op":"sum","field":"Revenue","as":"Revenue"}],"groupby":["Date","Channel"]}],
+  "mark":"line",
+  "encoding":{
+    "x":{"field":"Date","type":"temporal"},
+    "y":{"field":"Revenue","type":"quantitative"},
+    "color":{"field":"Channel","type":"nominal"},
+    "tooltip":[{"field":"Date","type":"temporal"},{"field":"Channel","type":"nominal"},{"field":"Revenue","type":"quantitative"}]
+  }
+}
