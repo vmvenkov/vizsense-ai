@@ -1,0 +1,12 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"Average salary by role",
+  "data":{"name":"table"},
+  "transform":[{"aggregate":[{"op":"mean","field":"Salary","as":"AvgSalary"}],"groupby":["Role"]}],
+  "mark":"bar",
+  "encoding":{
+    "x":{"field":"Role","type":"nominal","sort":"-y"},
+    "y":{"field":"AvgSalary","type":"quantitative","scale":{"zero":true}},
+    "tooltip":[{"field":"Role","type":"nominal"},{"field":"AvgSalary","type":"quantitative"}]
+  }
+}
