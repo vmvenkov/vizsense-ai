@@ -1,0 +1,11 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"Spend vs Conversions (overplot risk)",
+  "data":{"name":"table"},
+  "mark":"point",
+  "encoding":{
+    "x":{"field":"Spend","type":"quantitative"},
+    "y":{"field":"Conversions","type":"quantitative"},
+    "tooltip":[{"field":"Spend","type":"quantitative"},{"field":"Conversions","type":"quantitative"}]
+  }
+}
