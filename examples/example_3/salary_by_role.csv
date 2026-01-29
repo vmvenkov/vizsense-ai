@@ -1,0 +1,13 @@
+Role,Department,Salary
+Junior Analyst,Data,1200
+Analyst,Data,1500
+Senior Analyst,Data,1900
+Lead Analyst,Data,2300
+Junior Dev,Engineering,1600
+Developer,Engineering,2100
+Senior Dev,Engineering,2600
+Tech Lead,Engineering,3100
+Junior Sales,Sales,1100
+Sales Rep,Sales,1600
+Senior Sales,Sales,2200
+Sales Lead,Sales,2700
