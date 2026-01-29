@@ -1,0 +1,12 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"(Bad) Revenue share by product (too many slices)",
+  "data":{"name":"table"},
+  "mark":"arc",
+  "encoding":{
+    "theta":{"field":"Revenue","type":"quantitative"},
+    "color":{"field":"Product","type":"nominal"},
+    "tooltip":[{"field":"Product","type":"nominal"},{"field":"Revenue","type":"quantitative"}]
+  },
+  "view":{"stroke":null}
+}
