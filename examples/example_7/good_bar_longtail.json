@@ -1,0 +1,11 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"Revenue by product (sorted bar)",
+  "data":{"name":"table"},
+  "mark":"bar",
+  "encoding":{
+    "y":{"field":"Product","type":"nominal","sort":"-x"},
+    "x":{"field":"Revenue","type":"quantitative","scale":{"zero":true}},
+    "tooltip":[{"field":"Product","type":"nominal"},{"field":"Revenue","type":"quantitative"}]
+  }
+}
