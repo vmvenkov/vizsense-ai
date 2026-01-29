@@ -1,0 +1,12 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"(Bad) Line chart with categorical X",
+  "data":{"name":"table"},
+  "transform":[{"aggregate":[{"op":"sum","field":"Revenue","as":"Revenue"}],"groupby":["Channel"]}],
+  "mark":"line",
+  "encoding":{
+    "x":{"field":"Channel","type":"nominal"},
+    "y":{"field":"Revenue","type":"quantitative"},
+    "tooltip":[{"field":"Channel","type":"nominal"},{"field":"Revenue","type":"quantitative"}]
+  }
+}
