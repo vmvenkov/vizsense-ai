@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Misleading bar chart: y scale does not start at zero",
+  "data": {"name": "table"},
+  "transform": [
+    {"aggregate": [{"op": "sum", "field": "Revenue", "as": "TotalRevenue"}], "groupby": ["Channel"]}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Channel", "type": "nominal"},
+    "y": {"field": "TotalRevenue", "type": "quantitative", "scale": {"zero": false}},
+    "tooltip": [
+      {"field": "Channel", "type": "nominal"},
+      {"field": "TotalRevenue", "type": "quantitative"}
+    ]
+  }
+}
