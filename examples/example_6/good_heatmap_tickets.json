@@ -1,0 +1,12 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"Support tickets by day and hour (heatmap)",
+  "data":{"name":"table"},
+  "mark":"rect",
+  "encoding":{
+    "x":{"field":"Hour","type":"ordinal"},
+    "y":{"field":"DayOfWeek","type":"nominal"},
+    "color":{"field":"Tickets","type":"quantitative"},
+    "tooltip":[{"field":"DayOfWeek","type":"nominal"},{"field":"Hour","type":"ordinal"},{"field":"Tickets","type":"quantitative"}]
+  }
+}
